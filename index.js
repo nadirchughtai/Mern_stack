@@ -27,25 +27,25 @@ const xyz='This is ,the NEW string';
 
                 //    Logical Operators
 
-const a=10;
-const b=20;
+// const a=10;
+// const b=20;
 
-(a<8 && b>1)
-{
-console.log('True')
-} 
+// (a<8 && b>1)
+// {
+// console.log('True')
+// } 
 
- (a==5 || b==5) 
-{
-    console.log('true')
-}
-(!(x==y))
-{
-    console.log('false');
-}
+//  (a==5 || b==5) 
+// {
+//     console.log('true')
+// }
+// (!(x==y))
+// {
+//     console.log('false');
+// }
 
 
-
+console.log('hello world');
 
 
 
