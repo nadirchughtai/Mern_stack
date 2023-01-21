@@ -44,8 +44,91 @@ const xyz='This is ,the NEW string';
 //     console.log('false');
 // }
 
-
-console.log('hello world');
-
+                        //  Functions
 
 
+
+
+//  if(g>30)
+//  {
+//     console.log('It is Very True');
+//  }
+//  else if(h<30)
+//  {
+//     console.log('It Wil not Run'); 
+//  }
+
+
+// switch (new Date().getDay()) {
+//     case 0:
+//       console.log( day = "Sunday");
+//       break;
+//     case 1:
+//         console.log( day = "Monday");
+//       break;
+//     case 2:
+//         console.log( day ="Tuesday");
+//       break;
+//     case 3:
+//         console.log( day = "Wednesday");
+//       break;
+//     case 4:
+//         console.log( day = "Thursday");
+//       break;
+//     case 5:
+//         console.log( day ="Friday");
+//       break;
+//     case 6:
+//         console.log( day = "Saturday");
+//   }
+
+
+
+const student =['Nadir','Ahmed' ,'Shahid','Amir'];
+const student2 =['jsy','may','tay'];
+student.push('Nayyar');
+student.pop();
+// console.log(student);
+const SortedArray=student.sort((a,b)=> { 
+    if(a<b) return -1;
+    if(a>b) return 1;
+    return 0;
+}  );
+// console.log(SortedArray);
+console.log(SortedArray);
+ const reverseAry= student.reverse();
+//  console.log(reverseAry);
+
+
+const fontDta=student.filter((elm)=> elm=='Nadir')
+// console.log(fontDta);
+
+const mappedData= student.map((elm,i)=> {
+    return{
+    name:elm,
+    index:i
+    }
+} )
+// console.log(mappedData);
+
+const flatmap=student.flatMap((elm,i)=>{
+    if(elm=='Nadir')
+    return{
+        name:elm,
+        index:i,
+        
+    }
+})
+
+// console.log(flatmap);
+
+for(var i=0; i<student.length; i++) {
+
+    console.log(student[i]);
+}
+ var i=0;
+ while(i<student.length)
+ {
+    console.log(student[i]);
+    i++;
+ }
